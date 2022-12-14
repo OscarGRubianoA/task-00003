@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(./assets/image11.jpg);
+}
+header{
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    border-bottom: 2px solid crimson;
+    margin: 1rem;
+    
+}
+header nav{
+    
+    padding: 2rem;
+    text-decoration: none;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    
+    padding: 1rem;
+}
+header img{
+   height: 10rem;
+   padding-right: 1rem;
+}
+.active{
+    color:crimson;
+    border:2px solid crimson;
+}
+main{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem 1rem 1rem;
+    gap:1rem;
+}
+main h1{
+    
+    font-size: 3rem;
+    color: crimson;
+    text-align: center;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main img{
+    height:30rem;
+    width: 100%;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+main section{
+    display: flex;
+    color: white;
+    font-size: 1.6rem;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    gap:1rem;
+    
+}
+section p{
+    
+    padding: 1rem;
+    color: black;
+}
